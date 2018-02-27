@@ -1,0 +1,34 @@
+# things to install
+# install  homebrew: 
+# this will install xcode too if missing
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# then enter this to install brew cask
+brew cask
+# install these apps:
+brew cask install iterm2 spectacle google-chrome visual-studio-code karabiner-elements postman sequel-pro autojump
+# install zsh
+oh-my-zsh: sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+mkdir repos
+# install fonts:
+# clone
+cd ~
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+./fonts/install.sh
+# clean-up a bit
+sudo rm -rf fonts
+
+to do
+  1 finger tap: set this in mouse
+  3 finger drag: set this in accessibility
+  Karabiner and swap cap lock with esc
+  download all personal config to ~/config
+     .zshrc, the bash one
+  download all personal script to ~/myScript
+  install vimium for chrome
+  Do you need java? and set java home?
+  vscode config and all the extensions
+  set spectacle profile
+  hide the dock
+  other to install avast, lastpass, private internet access
