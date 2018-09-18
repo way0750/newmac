@@ -7,6 +7,7 @@ to do
   download all personal script to ~/myScript
   install vimium for chrome
   Do you need java? and set java home?
+  add autojump to .zshrc
   vscode config and all the extensions
   set spectacle profile
   hide the dock
