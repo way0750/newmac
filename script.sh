@@ -18,4 +18,7 @@ git clone https://github.com/powerline/fonts.git --depth=1
 ./fonts/install.sh
 # clean-up a bit
 sudo rm -rf fonts
+# this will install the powelevel9k theme for zsh
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
 
