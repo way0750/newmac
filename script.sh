@@ -38,3 +38,10 @@ cd ~
 brew install fzf
 
 $(brew --prefix)/opt/fzf/install
+
+# you still need alfred, avast security, google chrome, iterm2, karabiner elements, sequel-pro, spectacle, VSCode-darwin, SmootherScrollForVsCode
+# for the SmootherScrollForVsCode
+# copy the smoothscroll dir to
+# $HOME/.vscode/extensions
+# some times you need to compile the extentions first
+
